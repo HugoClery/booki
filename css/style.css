@@ -107,9 +107,7 @@ a {
   margin-top: 30px;
 }
 /****** titres ***********/
-.titres {
-  align-items: column;
-}
+
 .titres h1 {
   margin-bottom: 8px;
   font-weight: 700;
@@ -160,7 +158,7 @@ a {
 }
 
 .recherche button i {
-  display: none;
+  display: none !important;
 }
 
 .recherche button {
@@ -199,16 +197,13 @@ a {
   padding-right: 19px;
   border: 2px solid #d9d9d9;
   background-color: white;
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
 }
 
 .filtres button:hover {
   background-color: #deebff;
-}
-
-.filtres button p {
-  font-weight: 700;
-  font-size: 17px;
-  color: black;
 }
 .house-number {
   display: flex;
